@@ -112,7 +112,7 @@ nav .toggle .bar{
 .start{
     width: 100%;
     height: 200px;
-    background: url('images/Fresh Fruits.JPG');
+    background: url('Images/Fresh Fruits.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -130,7 +130,7 @@ nav .toggle .bar{
 
 .container{
   font-family: 'Poppins', sans-serif;
-  background: url('images/dounuts.JPG');
+  background: url('Images/Dounuts.JPG');
   margin: 0 auto;
   max-width: 100%;
   display: grid;
