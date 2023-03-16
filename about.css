@@ -105,15 +105,38 @@ nav .toggle .bar{
     nav .nav-list.active{
         display: flex;
     }
-    .content-section{
-        justify-content: center;
+
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
     }
 }
 
 .ice{
     width: 100%;
     height: 400px;
-    background: url('Images./Fresh Fruits.JPG') no-repeat;
+    background: url('Images/Fresh\ Fruits.JPG') no-repeat;
     background-size: cover;
     text-transform: capitalize;
     display: flex;
@@ -199,7 +222,7 @@ nav .toggle .bar{
     color: darkred;
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .container{
         width: 80%;
         display: block;
@@ -226,7 +249,7 @@ nav .toggle .bar{
         padding: 9px 30px;
     }
      
-}
+} */
 footer{
 	bottom: 0;
 	left: 0;

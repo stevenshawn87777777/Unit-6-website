@@ -66,6 +66,7 @@ nav a.toggle{
     width: 30px;
     height: 21px;
     transition: 5s ease;
+    padding: 10px;
 }
 
 nav .toggle .bar{

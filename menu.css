@@ -117,7 +117,7 @@ nav .toggle .bar{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('Images/cupcakes\ \(4\).jpg');
+    background: url('Images/Cupcakes\ \(4\).JPG');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -202,7 +202,7 @@ footer{
 	flex-direction: column;
 	text-align: center;
 }
-footer-content h3{
+.footer-content h3{
 	font-size: 1.5rem;
 	font-weight: 500;
 	text-transform: capitalize;
